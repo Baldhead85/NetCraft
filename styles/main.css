@@ -1,0 +1,106 @@
+@import url(./_reset.css);
+@import url(./_base.css);
+@import url(./_typography.css);
+
+/* 
+* Add your own CSS code below... 
+*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  margin: 10px;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blue {
+  background: #3e5a6b;
+  height: 140px;
+  flex-basis: calc(50% - 20px);
+  flex-grow: 1;
+}
+.box3 {
+  background: #f59c46;
+  flex-basis: 100%;
+  height: 33rem;
+}
+.green {
+  background: #6cac3c;
+  flex-basis: calc(33.333% - 20px);
+  height: 30rem;
+}
+
+.red {
+  background: #ea393d;
+  /* padding: 10rem; */
+  flex-basis: calc(25% - 40px);
+  height: 260px;
+}
+
+@media all and (max-width: 850px) {
+  .box {
+    background-color: deeppink;
+  }
+  .blue {
+    background: #3e5a6b;
+    height: 60px;
+    flex-basis: 100%;
+    flex-grow: 1;
+  }
+  .box3 {
+    background: #f59c46;
+    flex-basis: 100%;
+    height: 20rem;
+  }
+  .green {
+    background: #6cac3c;
+    /* padding: 30px; */
+    flex-basis: 100%;
+    height: 8rem;
+  }
+  .red {
+    background: #ea393d;
+    /* padding: 10rem; */
+    flex-basis: calc(50% - 20px);
+    height: 200px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .box {
+    background-color: deeppink;
+  }
+  .blue {
+    background: #3e5a6b;
+    height: 80px;
+    flex-basis: 100%;
+    flex-grow: 1;
+  }
+  .box3 {
+    background: #f59c46;
+    flex-basis: 100%;
+    height: 20rem;
+  }
+  .green {
+    background: #6cac3c;
+    /* padding: 30px; */
+    flex-basis: 100%;
+    height: 12rem;
+  }
+  .red {
+    background: #ea393d;
+    flex-basis: 100%;
+    height: 120px;
+  }
+  .box9,
+  .box10 {
+    display: none;
+  }
+}

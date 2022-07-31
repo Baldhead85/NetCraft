@@ -1,0 +1,39 @@
+.box {
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  padding: 1.5rem;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.box1 {
+  background: #3e5a6b;
+}
+.box2 {
+  background: #3e5a6b;
+}
+.box3 {
+  background: #f59c46;
+  width: 10rem;
+  height: 10rem;
+}
+.box4 {
+  background: #6cac3c;
+}
+.box5 {
+  background: #6cac3c;
+}
+.box6 {
+  background: #6cac3c;
+}
+.box7 {
+  background: #ea393d;
+}
+.box8 {
+  background: #ea393d;
+}
+.box9 {
+  background: #ea393d;
+}
+.box10 {
+  background: #ea393d;
+}
